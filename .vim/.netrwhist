@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/mylxsw/codes/eclipse/Demo/spies.dSYM'
+let g:netrw_dirhist_2='/Users/mylxsw/codes/github/less.js'
+let g:netrw_dirhist_3='/Users/mylxsw/codes/python_pri/.git'
+let g:netrw_dirhist_4='/Users/mylxsw/codes/github/php-src/main'
+let g:netrw_dirhist_5='/Users/mylxsw/.oh-my-zsh'
+let g:netrw_dirhist_6='/Users/mylxsw'
