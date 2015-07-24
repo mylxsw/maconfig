@@ -59,11 +59,13 @@ source ~/.profile
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
+#if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
-# else
+#else
 #   export EDITOR='mvim'
-# fi
+#fi
+
+export EDITOR='vim'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
