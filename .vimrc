@@ -16,7 +16,7 @@ Plugin 'shawncplus/phpcomplete.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 "Plugin 'Lokaltog/vim-powerline'
-"Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'mattn/emmet-vim'
 "Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-commentary'
@@ -84,7 +84,7 @@ set bs=2 "在insert模式下用delete删除
 ""powerline{
 
 set encoding=utf-8
-"set laststatus=2   " 总是显示状态栏
+set laststatus=2   " 总是显示状态栏
 set guifont=Inconsolata\ for\ Powerline
 set t_Co=256
 let g:Powerline_symbols = 'fancy'
