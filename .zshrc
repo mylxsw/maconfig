@@ -5,7 +5,8 @@ export ZSH=/Users/mylxsw/.maconfig/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+#ZSH_THEME="robbyrussell"
+ZSH_THEME="mylxsw"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -49,7 +50,7 @@ plugins=(git golang autojump atom jsontools sublime)
 
 # User configuration
 
-export PATH="/Users/mylxsw/codes/golang/bin:/Users/mylxsw/Tools/ssh:/opt/local/bin:/opt/local/sbin:/usr/local/go/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin"
+export PATH="/Users/mylxsw/codes/golang/bin:/Users/mylxsw/Tools/ssh:/opt/local/bin:/opt/local/sbin:/usr/local/go/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -79,11 +80,12 @@ export EDITOR='vim'
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias zshconfig="vim ~/.zshrc"
+alias ohmyzsh="vim ~/.oh-my-zsh"
 
 #[[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
 
+export PATH="/usr/local/opt/php70/sbin:/usr/local/opt/php70/bin:$PATH"
 source /Users/mylxsw/.iterm2_shell_integration.zsh
 
 #. /Users/mylxsw/.vim/others/powerline/powerline/bindings/zsh/powerline.zsh
